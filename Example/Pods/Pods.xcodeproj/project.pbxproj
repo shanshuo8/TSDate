@@ -12,8 +12,9 @@
 		4ECC3F5398494ADCF39FA0A0654E5075 /* Pods-TSDate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D95B0674EA7B92C0685845E19A6CB /* Pods-TSDate_Example-dummy.m */; };
 		772E7AD05F0FCEC19F313F26067869F4 /* Pods-TSDate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA6C0EED3FA82B0D68ED046A608332A /* Pods-TSDate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		837680C59B81901C6782A1C2CB0F5D53 /* Pods-TSDate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FBC25BEE9364DA1EF6A727011AD2650 /* Pods-TSDate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FC82F8826BEB09E00EE3F9A /* TSDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC82F8626BEB09E00EE3F9A /* TSDate.h */; };
+		8FC82F8926BEB09E00EE3F9A /* TSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC82F8726BEB09E00EE3F9A /* TSDate.m */; };
 		9A405FEBFAB2B03E9569055953821594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A5C23691790E89677F8584A79D3DA8C9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADEC05D08062371184D0697439301B6 /* ReplaceMe.m */; };
 		B63F62FA3CDBCDAC43B7C47CACEC9A23 /* Pods-TSDate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7E9FA1502E99BB6F0560BDF5974804 /* Pods-TSDate_Tests-dummy.m */; };
 		F313FBFF400926C7FD284DEB5A8A63A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F401054951F356053AF427C06357068A /* TSDate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2444E6EF6B47F30A2CD3DAF07AF9E376 /* TSDate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,7 +44,6 @@
 		35F0563FB3FB91EAEBC7DCCFAD17DABB /* TSDate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TSDate.modulemap; sourceTree = "<group>"; };
 		3FC475218318D5637BF8CCA9500C155D /* Pods-TSDate_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSDate_Example-Info.plist"; sourceTree = "<group>"; };
 		46E68E2BCAFE1320C51FEC62ADCD8767 /* Pods-TSDate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSDate_Example.modulemap"; sourceTree = "<group>"; };
-		4ADEC05D08062371184D0697439301B6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TSDate/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		4F4007861B1C7606981DAAFB4D5ACA37 /* Pods-TSDate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSDate_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		62BF8B248ACE2FD179DCCF7D152291F6 /* TSDate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSDate-prefix.pch"; sourceTree = "<group>"; };
 		6D64389F1B91CAE8901AB95A80D8983D /* Pods-TSDate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSDate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -52,20 +52,22 @@
 		829D95B0674EA7B92C0685845E19A6CB /* Pods-TSDate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSDate_Example-dummy.m"; sourceTree = "<group>"; };
 		889B95A684D03EE806FC99C05DE31A4B /* Pods-TSDate_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSDate_Tests-Info.plist"; sourceTree = "<group>"; };
 		8DA627ACE277BACB7454E9E5E50AB303 /* TSDate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSDate-dummy.m"; sourceTree = "<group>"; };
+		8FC82F8626BEB09E00EE3F9A /* TSDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSDate.h; sourceTree = "<group>"; };
+		8FC82F8726BEB09E00EE3F9A /* TSDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSDate.m; sourceTree = "<group>"; };
 		94D09EC6BDC3FA6A9581DF30ECE8D2B3 /* TSDate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSDate.xcconfig; sourceTree = "<group>"; };
 		9668B45095E644A336D5239F7F65AF5B /* Pods-TSDate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSDate_Example.release.xcconfig"; sourceTree = "<group>"; };
 		97952E4111332E4F31B99F045EB5F23A /* Pods-TSDate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSDate_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9B10CEB0CBC3E027A4459DBA46E5B6A2 /* TSDate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSDate-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FA6C0EED3FA82B0D68ED046A608332A /* Pods-TSDate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSDate_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B7DF7E2D0DC06F8801805DFBB786E03E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		BC4906D38D23ED2A9166C228CB82D31A /* Pods_TSDate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TSDate_Example.framework; path = "Pods-TSDate_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DF7E2D0DC06F8801805DFBB786E03E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BC4906D38D23ED2A9166C228CB82D31A /* Pods_TSDate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSDate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CDE76AAA8A5524A46FE0B3972DEEE7 /* Pods-TSDate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSDate_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C65680742316BF2F2FAB145E8CED1559 /* TSDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TSDate.framework; path = TSDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65680742316BF2F2FAB145E8CED1559 /* TSDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1AF2A6F9F433E53AEF44A349BB6F3B7 /* Pods-TSDate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSDate_Tests.modulemap"; sourceTree = "<group>"; };
-		D6727CE854BF33DE0490F4476FEEB0C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E1020BAAD6218C7E0B13758D6D3BED84 /* TSDate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TSDate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E14689B186FEFDCA23878D8DE5DE6B1F /* Pods_TSDate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TSDate_Tests.framework; path = "Pods-TSDate_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6727CE854BF33DE0490F4476FEEB0C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E1020BAAD6218C7E0B13758D6D3BED84 /* TSDate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TSDate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E14689B186FEFDCA23878D8DE5DE6B1F /* Pods_TSDate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSDate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E387959B76E72AFFBDEB5596D6F36721 /* Pods-TSDate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSDate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FA7E9FA1502E99BB6F0560BDF5974804 /* Pods-TSDate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSDate_Tests-dummy.m"; sourceTree = "<group>"; };
 		FEE0D98311AB309A1316A75832E6DDC3 /* Pods-TSDate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSDate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -170,7 +172,8 @@
 		D02415CE9592963FC9407DD9BD73A46F /* TSDate */ = {
 			isa = PBXGroup;
 			children = (
-				4ADEC05D08062371184D0697439301B6 /* ReplaceMe.m */,
+				8FC82F8626BEB09E00EE3F9A /* TSDate.h */,
+				8FC82F8726BEB09E00EE3F9A /* TSDate.m */,
 				DD85B4CC98792708A665D6083F8A7ECE /* Pod */,
 				0D4A96CBE30B24652F062D3577B8B892 /* Support Files */,
 			);
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F401054951F356053AF427C06357068A /* TSDate-umbrella.h in Headers */,
+				8FC82F8826BEB09E00EE3F9A /* TSDate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,8 +385,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5C23691790E89677F8584A79D3DA8C9 /* ReplaceMe.m in Sources */,
 				0B271F8C5EBA3A22B4970A8047C21D8B /* TSDate-dummy.m in Sources */,
+				8FC82F8926BEB09E00EE3F9A /* TSDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,8 +595,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
