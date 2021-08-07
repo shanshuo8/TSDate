@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TSDate'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of TSDate.'
 
 # This description is used to generate tags and improve search results.
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1447107681@qq.com/TSDate'
+  s.homepage         = 'https://github.com/shanshuo8/TSDate'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1447107681@qq.com' => '1447107681@qq.com' }
+  s.author           = { 'shanshuo8' => '1447107681@qq.com' }
   s.source           = { :git => 'https://github.com/1447107681@qq.com/TSDate.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

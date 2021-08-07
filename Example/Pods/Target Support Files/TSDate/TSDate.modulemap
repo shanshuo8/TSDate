@@ -1,0 +1,6 @@
+framework module TSDate {
+  umbrella header "TSDate-umbrella.h"
+
+  export *
+  module * { export * }
+}

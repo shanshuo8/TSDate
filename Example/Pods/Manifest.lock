@@ -1,0 +1,16 @@
+PODS:
+  - TSDate (0.0.1)
+
+DEPENDENCIES:
+  - TSDate (from `../`)
+
+EXTERNAL SOURCES:
+  TSDate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TSDate: 2edc4ff20b081e3287b32ff193f5707575b2da62
+
+PODFILE CHECKSUM: ef9e06c516b247fd53dd8f09593a10473e5602e7
+
+COCOAPODS: 1.8.4
