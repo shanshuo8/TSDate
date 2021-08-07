@@ -22,7 +22,7 @@ pod 'TSDate'
 
 ## Author
 
-1447107681@qq.com, 1447107681@qq.com
+shanshuo8, 1447107681@qq.com
 
 ## License
 
