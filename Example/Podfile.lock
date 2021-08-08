@@ -1,16 +1,23 @@
 PODS:
-  - TSDate (0.0.1)
+  - TSDate (0.0.1):
+    - TSScheduler (= 0.1.0)
+  - TSScheduler (0.1.0)
 
 DEPENDENCIES:
   - TSDate (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - TSScheduler
 
 EXTERNAL SOURCES:
   TSDate:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TSDate: 2edc4ff20b081e3287b32ff193f5707575b2da62
+  TSDate: 0662a7d370696e4a142b842948bab445a443bd03
+  TSScheduler: 5e1a15716317356c695a15ff7cf381527b516600
 
 PODFILE CHECKSUM: ef9e06c516b247fd53dd8f09593a10473e5602e7
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.2

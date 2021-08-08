@@ -1,0 +1,6 @@
+framework module TSScheduler {
+  umbrella header "TSScheduler-umbrella.h"
+
+  export *
+  module * { export * }
+}

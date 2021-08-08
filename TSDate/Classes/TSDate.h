@@ -11,6 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TSDate : NSObject
 
+/// 传进来的日期是否是今天
+/// @param date 日期
++ (BOOL)isTodayOfDate:(NSDate *)date;
+
 @end
 
 NS_ASSUME_NONNULL_END

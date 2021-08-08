@@ -10,9 +10,8 @@
 #endif
 #endif
 
-#import "TSDate.h"
-#import "TSScheduler+Date.h"
+#import "TSScheduler.h"
 
-FOUNDATION_EXPORT double TSDateVersionNumber;
-FOUNDATION_EXPORT const unsigned char TSDateVersionString[];
+FOUNDATION_EXPORT double TSSchedulerVersionNumber;
+FOUNDATION_EXPORT const unsigned char TSSchedulerVersionString[];
 

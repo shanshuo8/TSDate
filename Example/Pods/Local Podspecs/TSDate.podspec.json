@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "TSDate/Classes/**/*"
+  "source_files": "TSDate/Classes/**/*",
+  "dependencies": {
+    "TSScheduler": [
+      "0.1.0"
+    ]
+  }
 }

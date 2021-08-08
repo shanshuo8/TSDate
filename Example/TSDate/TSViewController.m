@@ -7,7 +7,8 @@
 //
 
 #import "TSViewController.h"
-
+#import <TSScheduler.h>
+#import <TSScheduler+Date.h>
 @interface TSViewController ()
 
 @end
@@ -17,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%@", @([TSScheduler isTodayOfDate:[NSDate date]]));
 }
 
 - (void)didReceiveMemoryWarning
