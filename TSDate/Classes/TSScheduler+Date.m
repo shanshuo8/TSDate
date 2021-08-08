@@ -31,7 +31,7 @@
 /// @param date 日期
 + (BOOL)isTomorrowOfDate:(NSDate *)date
 {
-    return [TSDate isYesterdayOfDate:date];
+    return [TSDate isTomorrowOfDate:date];
 }
 
 /// 获取传进来date的毫秒时间戳
