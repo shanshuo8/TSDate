@@ -1,6 +1,6 @@
 {
   "name": "TSDate",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "summary": "A short description of TSDate.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/shanshuo8/TSDate",
@@ -12,8 +12,8 @@
     "shanshuo8": "1447107681@qq.com"
   },
   "source": {
-    "git": "https://github.com/1447107681@qq.com/TSDate.git",
-    "tag": "0.0.1"
+    "git": "https://github.com/shanshuo8/TSDate.git",
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,7 +21,7 @@
   "source_files": "TSDate/Classes/**/*",
   "dependencies": {
     "TSScheduler": [
-      "0.1.0"
+
     ]
   }
 }
