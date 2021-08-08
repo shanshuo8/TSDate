@@ -7,6 +7,7 @@
 //
 
 @import XCTest;
+#import "TSDate.h"
 
 @interface Tests : XCTestCase
 
@@ -28,7 +29,13 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSDate *todayDate = [TSDate getDateWithYearMonthDayTypeDateString:@"2021-08-08"];
+    NSDate *yesterdayDate = [TSDate getDateWithYearMonthDayTypeDateString:@"2021-08-07"];
+    NSDate *tomorrowDate = [TSDate getDateWithYearMonthDayTypeDateString:@"2021-08-09"];
+    XCTAssert([TSDate isTodayOfDate:todayDate]);
+    XCTAssert([TSDate isYesterdayOfDate:yesterdayDate]);
+    XCTAssert([TSDate isTomorrowOfDate:tomorrowDate]);
+    XCTAssert([[TSDate getYearMonthDayTypeDateStringWithDate:todayDate] isEqualToString:@"2021-08-08"]);
 }
 
 @end
